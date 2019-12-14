@@ -1,0 +1,22 @@
+# general notion of shape-based object recognition in OO languages
+# degradeable type-matching
+# using pattern matching/destructuring, algebraic data-types and typeClassing
+# 
+{ name: Name
+, timeStamp:
+  { createdDate: TimeStamp
+  , modifiedDate: { Reducer, TimeStamp } #used for timeTravel
+  }
+, sessionData: 
+  { training:
+    [ type
+    , duration
+    , int averageIntensity
+    , FatigueIncursion
+    , MSF # muscleSelectiveFatigue
+    , [FatigueIncursionSelective, muscleGroup]
+    , MovementPatterns
+    ...
+    ]
+  }
+}

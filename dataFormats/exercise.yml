@@ -1,0 +1,20 @@
+{
+  name: exerciseNameExample,
+  time: {
+    dateTime
+  },
+  trainingData: {
+    currentSession:{},
+    pastSession:{},
+    max: {
+      timing,
+      rest,
+      reps,
+      sets,
+      resistance
+    },
+  },
+  exerciseModifiers: {
+
+  }
+}
